@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layoutDirection="rtl" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+
+        <ImageView
+            android:id="@+id/useridenity"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="50dp"
+            android:layout_centerVertical="true"
+            android:layout_width="60dp"
+            android:layout_marginBottom="30dp"
+
+            android:layout_height="60dp"
+            android:src="@drawable/persongood" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/useridenity"
+            android:layout_height="wrap_content"
+            android:text="مستخدم"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/verybig" />
+
+
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="50dp"
+
+            android:layout_centerVertical="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginBottom="30dp"
+            android:layout_height="60dp"
+
+            android:id="@+id/seleridenity"
+            android:src="@drawable/sellergood"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginEnd="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/seleridenity"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/bnfsg"
+            android:textSize="@dimen/verybig"
+
+            android:text="صاحب متجر"/>
+
+
+</RelativeLayout>

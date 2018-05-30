@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layoutDirection="rtl"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="تسجيل البيانات"
+        android:gravity="center"
+        android:background="@color/blue"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layoutDirection="rtl"
+        android:textSize="22sp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:id="@+id/line"
+            android:layout_centerInParent="true"
+            android:layout_height="20dp"
+            android:src="@drawable/line"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_toEndOf="@id/line"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="5dp"
+            android:layout_height="20dp"
+            android:src="@drawable/line"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_toStartOf="@id/line"
+            android:layout_marginEnd="5dp"
+            android:layout_centerInParent="true"
+            android:layout_height="20dp"
+            android:src="@drawable/lineblue"/>
+    </RelativeLayout>
+
+
+   <EditText
+       android:layout_width="match_parent"
+       android:drawableStart="@mipmap/person"
+       android:drawablePadding="5dp"
+       android:hint="الأسم"
+       android:layout_height="wrap_content"
+       android:layout_marginStart="10dp"
+       android:layout_marginEnd="10dp"
+       />
+    <EditText
+        android:layout_width="match_parent"
+        android:drawablePadding="5dp"
+        android:hint="user@Mail.com"
+        android:gravity="start"
+        android:paddingEnd="100dp"
+        android:drawableStart="@mipmap/email"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="النوع"/>
+   <RadioGroup
+       android:layout_width="match_parent"
+       android:layoutDirection="rtl"
+       android:orientation="horizontal"
+       android:layout_height="wrap_content">
+       <RadioButton
+           android:layout_width="wrap_content"
+           android:text="ذكر"
+           android:layout_weight="1"
+           android:textSize="20sp"
+           android:layout_height="wrap_content" />
+       <RadioButton
+           android:layout_width="wrap_content"
+           android:text="انثي"
+           android:textSize="20sp"
+           android:layout_weight="1"
+           android:layout_height="wrap_content" />
+   </RadioGroup>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:id="@+id/pharsetext"
+        android:text="@string/condition"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+       />
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="40dp"
+        android:elevation="8dp"
+        android:id="@+id/submit"
+        android:background="@color/blue"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:layout_gravity="center"
+        android:text="تأكيد"/>
+
+    </LinearLayout>
+
+

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layoutDirection="rtl"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/blue"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:id="@+id/framelayout"
+            android:focusable="false"
+            android:layout_centerInParent="true"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:id="@+id/user"
+                android:layout_centerInParent="true"
+                android:src="@drawable/shopicon"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_gravity="bottom"
+                android:layout_height="match_parent"
+                android:paddingBottom="8dp"
+                android:src="@drawable/add"/>
+
+        </FrameLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/markeetname"
+
+            android:textSize="@dimen/smaal"
+            android:textColor="@color/white"
+            android:layout_below="@id/framelayout"
+            android:layout_centerHorizontal="true"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/siwtch"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="5dp"
+
+            android:src="@drawable/blueswitch"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="@dimen/meieum"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:id="@+id/sichtext"
+            android:layout_marginEnd="5dp"
+            android:layout_toStartOf="@id/siwtch"
+            android:layout_marginTop="20dp"
+            android:text="غير متاح"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_margin="20dp"
+            android:src="@drawable/trssh"/>
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:id="@+id/mystar"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="20dp"
+            android:src="@drawable/star"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="@dimen/smaal"
+            android:layout_marginBottom="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toStartOf="@id/mystar"
+            android:text="5/4,3"/>
+
+
+    </RelativeLayout>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        app:cardElevation="8dp"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layoutDirection="rtl"
+                android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:textSize="@dimen/big"
+            android:textStyle="bold"
+            android:textColor="@color/blacl"
+            android:text="رصيدك"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_margin="20dp"
+                    android:layout_gravity="start"
+                    android:layout_height="wrap_content"
+                    android:text="0ريال"/>
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/blacl"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textSize="@dimen/big"
+                    android:textStyle="normal"
+                    android:textColor="@color/blacl"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content"
+                    android:text="عدد طلبات الرصيد"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="@dimen/smaal"
+                    android:textColor="@color/blacl"
+                    android:layout_alignParentEnd="true"
+
+                    android:layout_margin="10dp"
+                    android:paddingStart="7dp"
+                    android:layout_height="wrap_content"
+                    android:text="0"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_margin="10dp"
+                    android:textSize="@dimen/meieum"
+                    android:textColor="@color/blue"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:text="كيف اشحن الرصيد ؟"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/blacl"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.4"
+        android:layoutDirection="rtl"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="تغيير اللغة"
+            android:textSize="16sp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="ارسال التطبيق الي صديق"
+            android:textSize="16sp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="طريقة عمل تطبيق دباب"
+            android:textSize="16sp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="تواصل معنا عن طريق الواتساب"
+            android:textSize="16sp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="الشروط والاحكام"
+            android:textSize="16sp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="خروج"
+            android:textSize="16sp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

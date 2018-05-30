@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layoutDirection="rtl" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blacl"
+        android:layout_margin="20dp"
+        android:id="@+id/que"
+        android:layout_alignParentStart="true"
+        android:textSize="@dimen/big"
+        android:textStyle="bold"
+        android:text="الغاء الطلب !"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blacl"
+        android:id="@+id/question"
+        android:layout_below="@id/que"
+        android:layout_marginStart="20dp"
+        android:layout_alignParentStart="true"
+        android:textSize="@dimen/big"
+        android:text="هل تريد فعلا إلغاء الطلب ؟"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/big"
+        android:layout_margin="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/question"
+        android:id="@+id/bc"
+        android:textColor="@color/blacl"
+        android:textStyle="bold"
+        android:text="رجوع"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_below="@id/question"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_toStartOf="@id/bc"
+        android:textColor="	#FF0000"
+        android:textSize="@dimen/big"
+        android:textStyle="bold"
+        android:text="إلغاء الطلب"/>
+
+</RelativeLayout>

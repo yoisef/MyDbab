@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/stat</item>
+        <item name="colorAccent">@color/blue</item>
+    </style>
+
+    <style name="MyTabLayout" parent="Base.Widget.Design.TabLayout">
+        <item name="tabTextAppearance">@style/MyTabTextAppearance</item>
+    </style>
+
+    <style name="MyTabTextAppearance" parent="TextAppearance.AppCompat.Button">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="textAllCaps">true</item>
+    </style>
+    <style name="WhiteTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="colorAccent">@color/white</item>
+    </style>
+
+    <style name="BlueTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/blue</item>
+    </style>
+
+    <style name="MsgTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/blue</item>
+        <item name="actionBarSize">80dp</item>
+        <item name="colorPrimaryDark">@color/stat</item>
+        <item name="colorAccent">@color/blue</item>
+
+    </style>
+
+
+
+</resources>

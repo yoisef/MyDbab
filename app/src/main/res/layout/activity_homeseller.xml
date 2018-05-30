@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layoutDirection="rtl"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Homeseller">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/frameseller"
+        android:layout_weight="15"></FrameLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#808285"
+        />
+    <android.support.design.widget.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layoutDirection="rtl"
+        android:id="@+id/bottomnavseller"
+        app:itemIconTint="@color/textcolor"
+        app:itemTextColor="@color/textcolor"
+        android:layout_weight=".5"
+        android:background="#F2F2F2"
+        app:menu="@menu/selleritem"
+        android:layout_height="wrap_content"></android.support.design.widget.BottomNavigationView>
+
+
+
+</LinearLayout>

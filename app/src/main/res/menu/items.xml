@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/two"
+        android:title="طلباتي"
+        android:icon="@drawable/menuitem"
+        />
+
+    <item
+        android:id="@+id/one"
+        android:title="المتاجر"
+        android:icon="@drawable/dbabman"
+        />
+
+    <item
+        android:id="@+id/Home"
+        android:title="حسابي"
+        android:icon="@drawable/account"
+        />
+
+
+
+</menu>

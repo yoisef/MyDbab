@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layoutDirection="rtl"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="تفاصيل الطلب"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold"
+        android:id="@+id/qa"
+        android:textColor="@color/blacl"
+        android:textSize="@dimen/verybig"
+        android:layout_margin="20dp"
+        android:layout_height="wrap_content"
+        />
+    <View
+
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/ws"
+        android:layout_below="@id/qa"
+        android:background="@color/gray"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@color/gray"
+            android:id="@+id/datetime"
+            android:layout_below="@id/ws"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="@dimen/smaal"
+            android:gravity="center"
+            android:text="data"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_below="@id/datetime"
+            android:id="@+id/nameshop"
+            android:layout_marginStart="20dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/blue"
+            android:layout_height="wrap_content"
+            android:text="food"
+            android:gravity="end"
+            android:textSize="@dimen/big"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_alignParentStart="true"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:textColor="@color/blacl"
+            android:layout_below="@id/nameshop"
+            android:id="@+id/adressshop"
+            android:text="hgulhvm"
+            android:textSize="@dimen/smaal"
+            android:gravity="end"/>
+
+        
+
+    <View
+
+        android:layout_width="match_parent"
+        android:layout_below="@id/adressshop"
+        android:layout_marginTop="5dp"
+        android:id="@+id/ed"
+        android:layout_height="1dp"
+        android:background="@color/gray"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="@color/blue"
+            android:layout_below="@id/ed"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/rf"
+            android:layout_height="wrap_content"
+            android:text="موقع التوصيل"
+            android:textSize="@dimen/big"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_below="@id/rf"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="5dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:text="hgulhvm"
+            android:id="@+id/addresorder"
+
+            android:textColor="@color/blacl"
+            android:textSize="@dimen/smaal"
+            android:gravity="end"/>
+
+
+
+    <View
+
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:id="@+id/tg"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/addresorder"
+        android:background="@color/gray"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_alignParentStart="true"
+        android:text="تفاصيل الطلب"
+        android:layout_below="@id/tg"
+        android:id="@+id/orderdetailss"
+        android:textColor="@color/blacl"
+        android:textSize="@dimen/big"
+        android:layout_margin="20dp"
+        android:layout_height="wrap_content"/>
+
+    <View
+
+        android:layout_width="wrap_content"
+        android:layout_below="@id/orderdetailss"
+        android:id="@+id/yh"
+        android:layout_height="1dp"
+        android:background="@color/gray"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_below="@id/yh"
+            android:text="الفاتورة"
+            android:textColor="@color/blacl"
+            android:layout_margin="20dp"
+            android:layout_alignParentStart="true"
+            android:textSize="@dimen/meieum"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="@color/blacl"
+            android:layout_below="@id/yh"
+            android:id="@+id/cost"
+            android:layout_alignParentEnd="true"
+            android:textSize="@dimen/meieum"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_height="wrap_content"
+            android:text="0ريال"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_below="@id/cost"
+            android:layout_height="wrap_content"
+            android:id="@+id/dimisss"
+            android:text="رجوع"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"
+
+            android:textColor="@color/blacl"
+            android:textSize="@dimen/verybig"/>
+
+
+
+</RelativeLayout>

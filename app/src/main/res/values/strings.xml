@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">mydbab</string>
+    <string name="log">تسجيل جديد/ دخول </string>
+    <string name="inlogf">الرجاء إدخال رقم الهاتف</string>
+    <string name="inlogt">سوف نقوم بإرسال رمز الي هاتفك الجوال للتحقق</string>
+    <string name="validte">رمز التحقق</string>
+    <string name="validatef">تم إرسال رمز التفعيل علي جوالك بنجاح</string>
+    <string name="valditet">الرجاء إدخال الرمز المرسل </string>
+    <string name="condition">تسجيلك في تطبيق دباب يعني موافتك علي الاحكام والشروط</string>
+    <string name="search">ابحث عن متجر</string>
+    <string name="search_hint">Search...</string>
+    <string name="no_result_found">Results not found</string>
+    <string name="select_country">Select a county</string>
+    <string name="markeetname"> "اسم المتجر">></string>
+    <string name="title_activity_maps">Map</string>
+</resources>
